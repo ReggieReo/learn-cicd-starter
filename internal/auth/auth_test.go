@@ -28,7 +28,7 @@ func TestGetAPIKeyPass(t *testing.T) {
 	if err != nil {
 		t.Error("Get error from good header", err)
 	}
-	if result != "testesta" {
+	if result != "testest" {
 		t.Error("Not get the correct api key", result)
 	}
 }
