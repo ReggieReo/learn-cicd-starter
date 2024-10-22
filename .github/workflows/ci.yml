@@ -39,3 +39,6 @@ jobs:
 
       - name: Style Check
         run: test -z $(go fmt ./...)
+
+      - name: Static check
+        run: staticcheck ./...
